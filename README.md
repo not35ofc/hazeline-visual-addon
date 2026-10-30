@@ -2,7 +2,7 @@
 
 A client-side **Fabric customization mod** for **Minecraft Java Edition 1.21.11**. Soft, atmospheric visuals: custom sky, weather, menus, outlines and a smooth click GUI. Everything is visual / customization only - no cheats, nothing sent to servers.
 
-**Current version: 1.44.1** · download: [`release/hazeline-1.44.1.jar`](release/hazeline-1.44.1.jar) · licence: **GPL-3.0** (open source)
+**Current version: 1.44.2** · download: [`release/hazeline-1.44.2.jar`](release/hazeline-1.44.2.jar) · licence: **GPL-3.0** (open source)
 
 ## Features
 
@@ -18,7 +18,7 @@ A client-side **Fabric customization mod** for **Minecraft Java Edition 1.21.11*
 ## Install
 
 1. Use a **Fabric Loader 0.19.5 or newer** profile for **Minecraft 1.21.11**.
-2. Put `hazeline-1.44.1.jar` and **Fabric API** (0.141.6+1.21.11 or newer) in the profile's `mods` folder. Remove any older Hazeline / `pastaclient` jar.
+2. Put `hazeline-1.44.2.jar` and **Fabric API** (0.141.6+1.21.11 or newer) in the profile's `mods` folder. Remove any older Hazeline / `pastaclient` jar.
 3. Close the game before replacing the jar.
 
 ## Build from source

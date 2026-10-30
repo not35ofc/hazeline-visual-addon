@@ -3,10 +3,13 @@
 	"id": "hazeline",
 	"version": "${version}",
 	"name": "Hazeline",
-	"description": "Customization client for Minecraft 1.21.11: a click GUI with themes, fonts and sounds, a custom sky, and visual tweaks (Hand View, Swing Speed, Custom Block Outlines, Hit Boxes).",
+	"description": "Soft, atmospheric visual customization for Minecraft 1.21.11: a smooth click GUI with themes and fonts, Custom Sky, Weather (rain, snow, mist, thunder), Custom Menus, Block Outlines, Hit Boxes, Name Tag styling, keyboard click sounds and a Music HUD. Client-side only, no cheats.",
 	"authors": [
 		"Hazeline"
 	],
+	"contact": {
+		"sources": "https://github.com/not35ofc/hazeline-visual-addon"
+	},
 	"license": "GPL-3.0-only",
 	"icon": "assets/hazeline/icon.png",
 	"environment": "client",
