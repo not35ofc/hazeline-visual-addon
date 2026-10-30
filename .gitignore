@@ -1,0 +1,11 @@
+.gradle/
+build/
+out/
+run/
+.idea/
+*.iml
+.vscode/
+bin/
+
+# Source archives are redundant with the repo itself
+release/*-src.zip

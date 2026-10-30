@@ -1,0 +1,20 @@
+Hazeline keyboard sounds (assets/hazeline/sounds/kb/<pack>/) are converted from the recordings in
+kbsim - Mechanical Keyboard Simulator by Thomas Lai:
+  https://github.com/tplai/kbsim  (src/assets/audio, MIT licence below)
+  clicky <- mxblue (Cherry MX Blue)      creamy    <- cream (NovelKeys Cream)
+  alps_blue <- bluealps (SKCM Blue Alps) box_navy  <- boxnavy (Kailh Box Navy)
+  buckling <- buckling (Buckling spring) alpaca    <- alpaca
+  black_ink <- blackink (Gateron Black Ink) tealios <- turquoise (Turquoise Tealios)
+Edits: mono, leading silence removed, gain normalised (peak -3 dBFS), re-encoded as Ogg Vorbis
+(script: tools/sounds/make_packs.py in the Hazeline source).
+The Clicky/Creamy GUI sounds (sounds/clicky, sounds/creamy) were edited from Mechvibes' mxblue-travel and
+cream-travel folders, which are byte-identical copies of these kbsim recordings (checked 2026-10-24 by MD5),
+so this notice applies to them as well (see also SOUNDS-Mechvibes-MIT.txt).
+
+Copyright (c) Thomas Lai
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

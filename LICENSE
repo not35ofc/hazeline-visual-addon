@@ -1,0 +1,20 @@
+Hazeline
+Copyright (c) 2026 Hazeline. All rights reserved.
+
+This software (the compiled mod and its source code) is proprietary.
+
+You may download the released mod file and use it for personal play.
+Without prior written permission from the copyright holder you may NOT:
+  - copy, modify, decompile, disassemble or reverse engineer it, except where applicable law
+    expressly allows this despite this restriction;
+  - redistribute, re-upload, sell, sublicense or publish it or any part of it;
+  - use any part of it in other software.
+
+The software is provided "as is", without warranty of any kind. In no event shall the copyright
+holder be liable for any claim, damages or other liability arising from its use.
+
+Third-party components inside the mod keep their own licences, which this notice does not change:
+  - Fonts (Inter, Poppins, Comfortaa, Nunito, JetBrains Mono): SIL Open Font License 1.1,
+    see assets/hazeline/font/licenses/ in the mod file.
+  - Clicky / Creamy sounds made from Mechvibes recordings: MIT License,
+    see licenses/SOUNDS-Mechvibes-MIT.txt in the mod file.

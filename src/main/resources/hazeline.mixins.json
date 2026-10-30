@@ -1,0 +1,41 @@
+{
+	"required": true,
+	"package": "com.hazeline.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BlockOutlineMixin",
+		"CloudRendererMixin",
+		"FogRendererMixin",
+		"HitboxMixin",
+		"InputSoundsKeyboardMixin",
+		"InputSoundsMouseMixin",
+		"ItemInHandRendererMixin",
+		"KeyboardOverlayMixin",
+		"LivingEntityMixin",
+		"LogoDrawerMixin",
+		"NameTagChatLineMixin",
+		"NameTagChatMixin",
+		"NameTagOwnLabelMixin",
+		"NameTagScoreboardMixin",
+		"NameTagTabMixin",
+		"ScreenMixin",
+		"ScreenOverlayMixin",
+		"SkyRenderingMixin",
+		"SplashOverlayMixin",
+		"VanillaClickMixin",
+		"WeatherAccessMixin",
+		"WeatherCameraMixin",
+		"WeatherFogMixin",
+		"WeatherFogDistanceMixin",
+		"WeatherRenderingMixin",
+		"WeatherSkyMixin",
+		"WeatherSoundMixin",
+		"WorldRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

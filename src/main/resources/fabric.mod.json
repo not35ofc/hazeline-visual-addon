@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "hazeline",
+	"version": "${version}",
+	"name": "Hazeline",
+	"description": "Customization client for Minecraft 1.21.11: a click GUI with themes, fonts and sounds, a custom sky, and visual tweaks (Hand View, Swing Speed, Custom Block Outlines, Hit Boxes).",
+	"authors": [
+		"Hazeline"
+	],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/hazeline/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.hazeline.Hazeline"
+		]
+	},
+	"mixins": [
+		{
+			"config": "hazeline.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "hazeline.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,842 @@
+{
+  "clicky.open": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/open",
+        "stream": false
+      }
+    ]
+  },
+  "clicky.close": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/close",
+        "stream": false
+      }
+    ]
+  },
+  "clicky.enable": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/enable",
+        "stream": false
+      }
+    ]
+  },
+  "clicky.disable": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/disable",
+        "stream": false
+      }
+    ]
+  },
+  "clicky.click": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/click",
+        "stream": false
+      }
+    ]
+  },
+  "clicky.slider": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/slider",
+        "stream": false
+      }
+    ]
+  },
+  "clicky.keybind": {
+    "sounds": [
+      {
+        "name": "hazeline:clicky/keybind",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.open": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/open",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.close": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/close",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.enable": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/enable",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.disable": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/disable",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.click": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/click",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.slider": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/slider",
+        "stream": false
+      }
+    ]
+  },
+  "creamy.keybind": {
+    "sounds": [
+      {
+        "name": "hazeline:creamy/keybind",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/clicky/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.clicky.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/clicky/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/creamy/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/creamy/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/creamy/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/creamy/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.creamy.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/creamy/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alps_blue/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alps_blue/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alps_blue/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alps_blue/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alps_blue.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alps_blue/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/box_navy/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/box_navy/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/box_navy/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/box_navy/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.box_navy.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/box_navy/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/buckling/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/buckling/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/buckling/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/buckling/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.buckling.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/buckling/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alpaca/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alpaca/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alpaca/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/alpaca/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.alpaca.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/alpaca/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/black_ink/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/black_ink/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/black_ink/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/black_ink/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.black_ink.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/black_ink/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.press": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/press1",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/tealios/press2",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/tealios/press3",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/tealios/press4",
+        "stream": false
+      },
+      {
+        "name": "hazeline:kb/tealios/press5",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.space": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/space",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.space_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/space_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.enter": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/enter",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.enter_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/enter_release",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.backspace": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/backspace",
+        "stream": false
+      }
+    ]
+  },
+  "kb.tealios.backspace_release": {
+    "sounds": [
+      {
+        "name": "hazeline:kb/tealios/backspace_release",
+        "stream": false
+      }
+    ]
+  },
+  "weather.rain_loop": {
+    "sounds": [
+      {
+        "name": "hazeline:weather/rain_loop",
+        "stream": false
+      }
+    ]
+  },
+  "weather.wind_loop": {
+    "sounds": [
+      {
+        "name": "hazeline:weather/wind_loop",
+        "stream": false
+      }
+    ]
+  },
+  "weather.thunder_near": {
+    "sounds": [
+      {
+        "name": "hazeline:weather/thunder_near",
+        "stream": false
+      }
+    ]
+  },
+  "weather.thunder_mid": {
+    "sounds": [
+      {
+        "name": "hazeline:weather/thunder_mid",
+        "stream": false
+      }
+    ]
+  },
+  "weather.thunder_far": {
+    "sounds": [
+      {
+        "name": "hazeline:weather/thunder_far",
+        "stream": false
+      }
+    ]
+  }
+}

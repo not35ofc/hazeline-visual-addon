@@ -1,0 +1,66 @@
+// Hazeline - build script for Minecraft 1.21.11 (obfuscated, Yarn mappings, Java 21).
+//
+// Notes for 1.21.11 (the last obfuscated release):
+//  * The Loom plugin id is "net.fabricmc.fabric-loom-remap" - the remapping variant for obfuscated
+//    versions (1.21.11 or older). "net.fabricmc.fabric-loom" is for unobfuscated 26.1+ only, and the
+//    bare "fabric-loom" id is legacy compatibility only.
+//    Reference: https://docs.fabricmc.net/1.21.11/develop/loom
+//  * Sources use Yarn names (`mappings "net.fabricmc:yarn:..."`); the built jar is remapped to
+//    intermediary names by `remapJar`, which is what the game runs with.
+//  * Mod dependencies use `modImplementation` (remapped to the dev mappings by Loom).
+//  * Versions are the ones fabricmc.net/develop recommends for 1.21.11 (see gradle.properties).
+
+plugins {
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Loom adds the Fabric + Mojang repositories automatically.
+}
+
+loom {
+	// Small access widener (Yarn names; Loom remaps it to intermediary in remapJar).
+	accessWidenerPath = file("src/main/resources/hazeline.accesswidener")
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+	it.options.encoding = "UTF-8"
+}
+
+java {
+	// No sources jar: Hazeline is closed source (see LICENSE).
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+	def projectName = project.name
+	inputs.property "projectName", projectName
+	from("LICENSE") {
+		rename { "${it}_$projectName" }
+	}
+}

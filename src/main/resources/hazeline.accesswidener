@@ -1,0 +1,8 @@
+accessWidener	v2	named
+
+# (Yarn names; Loom's remapJar writes the intermediary version into the built jar.)
+# 1.35.0: the ResourcePackManager.providers entry was removed together with custom sound packs.
+
+# Custom Block Outlines: read the mining progress of the block being broken (read only).
+accessible	field	net/minecraft/client/network/ClientPlayerInteractionManager	currentBreakingPos	Lnet/minecraft/util/math/BlockPos;
+accessible	field	net/minecraft/client/network/ClientPlayerInteractionManager	currentBreakingProgress	F
