@@ -26,7 +26,9 @@ repositories {
 }
 
 loom {
-	// Small access widener (Yarn names; Loom remaps it to intermediary in remapJar).
+	// Small access widener (Yarn names; Loom remaps it to intermediary in remapJar): makes
+	// ResourcePackManager.providers visible so the runtime
+	// "user fonts & sounds" pack can be registered (see appearance/UserAssetPack).
 	accessWidenerPath = file("src/main/resources/hazeline.accesswidener")
 }
 
@@ -52,7 +54,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 java {
-	// No sources jar: Hazeline is closed source (see LICENSE).
+	// Hazeline is open source under GPL-3.0 (see LICENSE).
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
 }

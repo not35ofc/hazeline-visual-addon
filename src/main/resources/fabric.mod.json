@@ -7,7 +7,7 @@
 	"authors": [
 		"Hazeline"
 	],
-	"license": "All-Rights-Reserved",
+	"license": "GPL-3.0-only",
 	"icon": "assets/hazeline/icon.png",
 	"environment": "client",
 	"entrypoints": {

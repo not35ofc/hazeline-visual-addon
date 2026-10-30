@@ -2,7 +2,7 @@
 
 A client-side **Fabric customization mod** for **Minecraft Java Edition 1.21.11**. Soft, atmospheric visuals: custom sky, weather, menus, outlines and a smooth click GUI. Everything is visual / customization only - no cheats, nothing sent to servers.
 
-**Current version: 1.44.0** · download: [`release/hazeline-1.44.0.jar`](release/hazeline-1.44.0.jar)
+**Current version: 1.44.1** · download: [`release/hazeline-1.44.1.jar`](release/hazeline-1.44.1.jar) · licence: **GPL-3.0** (open source)
 
 ## Features
 
@@ -18,7 +18,7 @@ A client-side **Fabric customization mod** for **Minecraft Java Edition 1.21.11*
 ## Install
 
 1. Use a **Fabric Loader 0.19.5 or newer** profile for **Minecraft 1.21.11**.
-2. Put `hazeline-1.44.0.jar` and **Fabric API** (0.141.6+1.21.11 or newer) in the profile's `mods` folder. Remove any older Hazeline / `pastaclient` jar.
+2. Put `hazeline-1.44.1.jar` and **Fabric API** (0.141.6+1.21.11 or newer) in the profile's `mods` folder. Remove any older Hazeline / `pastaclient` jar.
 3. Close the game before replacing the jar.
 
 ## Build from source
@@ -43,4 +43,8 @@ The jar ends up in `build/libs/hazeline-<version>.jar`.
 
 ## Licence
 
-The source is public to read, but Hazeline is **not open source**: all rights reserved, see [`LICENSE`](LICENSE). You may download and play the released mod; copying, modifying, re-uploading or reusing the code needs permission. Bundled fonts keep their SIL Open Font License 1.1 and the sounds their MIT licence (kbsim / Mechvibes); their licence files are in `src/main/resources` and inside the jar.
+Hazeline is **open source** under the [GNU General Public License v3.0](LICENSE) (`GPL-3.0-only`). You may use, study, change and share it; if you share a changed version, it has to stay open source under the same licence and keep the credits.
+
+Third-party parts keep their own licences:
+- Fonts (Inter, Poppins, Comfortaa, Nunito, JetBrains Mono): SIL Open Font License 1.1 - `src/main/resources/assets/hazeline/font/licenses/`
+- Keyboard sounds from [kbsim](https://github.com/tplai/kbsim) (Thomas Lai) and [Mechvibes](https://github.com/hainguyents13/mechvibes): MIT - `src/main/resources/licenses/`
